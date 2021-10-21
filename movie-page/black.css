@@ -226,31 +226,3 @@ a.movie-item:hover {
 .item-action {
   margin-top: var(--space-top);
 }
-
-.top-down{
-  transform: translateY(-50px);
-  visibility: visible;
-  transition: 0.5s ease-in-out;
-}
-
-.delay-2 {
-  transition-delay: 0.2s;
-}
-
-.delay-4 {
-  transition-delay: 0.4s;
-}
-
-.delay-6 {
-  transition-delay: 0.6s;
-}
-
-.delay-8 {
-  transition-delay: 0.8s;
-}
-
-.owl-item.active .top-down {
-  transform: translateY(0);
-  visibility: visible;
-  opacity: 1;
-}
